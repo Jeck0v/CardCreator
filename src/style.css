@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+body { background: #FAFAFA;  }
+
+input, textarea, select { border-radius: 7px; border: 1px solid #555A; padding: 2px 5px; }
+
+.box {  background: white; padding: 10px; border-radius: 10px; box-shadow: 0 0 5px #555A; gap: 5px;  }
+
+html, body, #root, .app { height: 100%; }
+
+.app { display: flex; flex-direction: column; gap: 20px; justify-content: center; align-items: center; }
+
+.card { display: flex; flex-direction: column; width: 350px; }
+.card-header { display: flex; justify-content: space-between; }
+.card-name { font-weight: bold; }
+.card-cost { display: flex; align-items: center; font-weight: bold; font-size: 1.2rem;}
+.card-group { display: flex; flex-direction: column; }
+.card-artwork { width: 100%; border-radius: 7px; }
+.card-type { font-size: .8rem; }
+.card-effect { display: flex; flex-direction: column; border-radius: 7px; padding: 7px; background: #FFA; }
+.card-keyword { font-size: .8rem;  }
+.card-keyword:before { content: '#'; }
+
+.config { display: flex; flex-direction: column; width: 350px; padding: 10px; gap: 5px; }
+.config-line { display: flex; gap: 5px;  }
+.config-name { flex-grow: 1; }
+.config-artwork { width: 100%; }
+.config-cost { width: 50px; }
+.config-description {}
+.config-type {}
